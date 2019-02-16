@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95vw; /* 650px; */
+  height: 80vh; /* 400px; */
+  padding-left: 10px;
+  margin: 10px auto;
+  background-color: #0088aa;
+  border-radius: 10px;
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+}

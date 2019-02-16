@@ -1,0 +1,19 @@
+.poke-list {
+    /* Estamos usando Display Flex para aprovechar la funcionalidad de wrapping 
+        ya que vamos a envolver todos los botones PokeCell que están dentro. */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* Establecemos el ancho al 50% para llenar la mitad izquierda 
+        del componente de la aplicación */
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #BFF9FF;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    /* También incluímos el desplazamiento de desbordamiento porque 
+        no todas las PokeCells se mostrarán a la vez. */
+    overflow: scroll;
+  }
